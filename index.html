@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Listings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Dream Properties</h1>
+    <p>Your Dream Home Awaits</p>
+  </header>
+
+  <!-- Property Listings Section -->
+  <section class="listings">
+    <h2>Featured Properties</h2>
+    <div class="property">
+      <img src="property1.jpg" alt="Beautiful House 1">
+      <h3>Modern Family Home</h3>
+      <p>3 Bed, 2 Bath, 1500 sqft</p>
+      <p>Price: $350,000</p>
+      <a href="#" class="button">View Details</a>
+    </div>
+    <div class="property">
+      <img src="property2.jpg" alt="Beautiful House 2">
+      <h3>Luxury Villa</h3>
+      <p>5 Bed, 4 Bath, 3200 sqft</p>
+      <p>Price: $950,000</p>
+      <a href="#" class="button">View Details</a>
+    </div>
+    <!-- Add more properties as needed -->
+  </section>
+
+  <!-- Image Gallery Section -->
+  <section class="gallery">
+    <h2>Property Gallery</h2>
+    <div class="gallery-grid">
+      <img src="gallery1.jpg" alt="Gallery Image 1">
+      <img src="gallery2.jpg" alt="Gallery Image 2">
+      <img src="gallery3.jpg" alt="Gallery Image 3">
+      <img src="gallery4.jpg" alt="Gallery Image 4">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Dream Properties. All rights reserved.</p>
+  </footer>
+</body>
+</html>
